@@ -3,7 +3,7 @@ import { CookieBanner } from "@/components/ui/CookieBanner";
 import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
 
 export const metadata = {
-  title: "Paulo Fonseca Arquitetura e Urbanismo | Projetos Residenciais",
+  title: "Paulo Fonseca Arquitetura e Urbanismo",
   description:
     "Projetos arquitetônicos residenciais em Dores do Indaiá e região. Arquitetura com planejamento, estética, funcionalidade e execução viável.",
   keywords: [
@@ -18,7 +18,7 @@ export const metadata = {
   ],
   authors: [{ name: "Paulo Fonseca Arquitetura e Urbanismo" }],
   openGraph: {
-    title: "Paulo Fonseca Arquitetura e Urbanismo | Projetos Residenciais",
+    title: "Paulo Fonseca Arquitetura e Urbanismo",
     description:
       "Projetos residenciais com planejamento, estética, funcionalidade e execução viável em Dores do Indaiá e região.",
     type: "website"
