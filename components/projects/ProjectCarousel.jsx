@@ -34,9 +34,9 @@ export function ProjectCarousel({ project, projectIndex, onOpenLightbox }) {
                 width="900"
                 height="1125"
                 draggable="false"
-                loading={imageIndex === 0 && projectIndex < 3 ? "eager" : "lazy"}
-                fetchPriority={imageIndex === 0 && projectIndex < 3 ? "high" : "auto"}
-                decoding="async"
+                loading={imageIndex === 0 ? "eager" : "lazy"}
+                fetchPriority={imageIndex === 0 && projectIndex < 5 ? "high" : "auto"}
+                decoding={imageIndex === 0 ? "sync" : "async"}
               />
               <span className="project-overlay">Ampliar imagem</span>
             </button>
