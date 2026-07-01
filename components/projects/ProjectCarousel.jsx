@@ -19,7 +19,7 @@ export function ProjectCarousel({ project, projectIndex, onOpenLightbox }) {
 
   return (
     <div className="project-carousel" data-carousel="" {...swipeHandlers}>
-      <div className="project-track" data-carousel-track="" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+      <div className="project-track" data-carousel-track="" style={{ transform: `translate3d(-${activeIndex * 100}%, 0, 0)` }}>
         {project.images.map((image, imageIndex) => (
           <div className="project-slide" data-placeholder={project.title} key={image.src}>
             <button
@@ -33,6 +33,7 @@ export function ProjectCarousel({ project, projectIndex, onOpenLightbox }) {
                 alt={image.alt}
                 width="900"
                 height="1125"
+                draggable="false"
                 loading={imageIndex === 0 && projectIndex < 3 ? "eager" : "lazy"}
                 fetchPriority={imageIndex === 0 && projectIndex < 3 ? "high" : "auto"}
                 decoding="async"
