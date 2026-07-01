@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Paulo Fonseca Arquitetura e Urbanismo",
     description:
-      "Projetos residenciais com planejamento, estética, funcionalidade e execução viável em Dores do Indaiá e região.",
+      "Projetos arquitetônicos residenciais, comerciais e de interiores que unem planejamento, estética e funcionalidade.",
     type: "website"
   }
 };
