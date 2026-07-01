@@ -1,5 +1,6 @@
 "use client";
 
+import { Instagram, Mail, Phone } from "lucide-react";
 import { useState } from "react";
 import { INSTAGRAM_URL, projectTypeOptions } from "@/data/site";
 import { buildContactMessage, createWhatsAppLink } from "@/lib/whatsapp";
@@ -67,11 +68,24 @@ export function ContactSection() {
           <p>Preencha os dados principais e o WhatsApp será aberto com uma mensagem pronta para iniciar o atendimento.</p>
 
           <address className="contact-data">
-            <a href="mailto:pfonseca.arq@gmail.com">pfonseca.arq@gmail.com</a>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noopener">
-              @arquitetopaulofonseca
+            <a className="contact-data-link" href="mailto:pfonseca.arq@gmail.com">
+              <span className="contact-link-icon" aria-hidden="true">
+                <Mail strokeWidth={1.55} />
+              </span>
+              <span>pfonseca.arq@gmail.com</span>
             </a>
-            <a href="tel:+5537999061018">(37) 9 9906-1018</a>
+            <a className="contact-data-link" href={INSTAGRAM_URL} target="_blank" rel="noopener">
+              <span className="contact-link-icon" aria-hidden="true">
+                <Instagram strokeWidth={1.55} />
+              </span>
+              <span>@arquitetopaulofonseca</span>
+            </a>
+            <a className="contact-data-link" href="tel:+5537999061018">
+              <span className="contact-link-icon" aria-hidden="true">
+                <Phone strokeWidth={1.55} />
+              </span>
+              <span>(37) 9 9906-1018</span>
+            </a>
           </address>
         </Reveal>
 

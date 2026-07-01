@@ -1,5 +1,4 @@
 import "./globals.css";
-import { CookieBanner } from "@/components/ui/CookieBanner";
 import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
 
 export const metadata = {
@@ -46,7 +45,6 @@ export default function RootLayout({ children }) {
         </a>
         {children}
         <FloatingWhatsApp />
-        <CookieBanner />
       </body>
     </html>
   );

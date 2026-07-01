@@ -1201,9 +1201,49 @@ h3 {
   font-style: normal;
 }
 
+.contact-data-link {
+  display: inline-grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  line-height: 1.35;
+}
+
+.contact-link-icon {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  color: var(--champagne);
+  background: rgba(185, 151, 104, 0.1);
+  border: 1px solid rgba(185, 151, 104, 0.34);
+  border-radius: 999px;
+}
+
+.contact-link-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.contact-data-link > span:last-child,
+.footer-nav-link > span:last-child,
+.footer-location > span:last-child,
+.footer-contact-link > span:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .contact-data a {
   color: var(--azul-principal);
   font-weight: 500;
+}
+
+.contact-data a:hover .contact-link-icon {
+  color: var(--branco-gelo);
+  background: var(--marrom-premium);
+  border-color: var(--marrom-premium);
 }
 
 .contact-data a:hover,
@@ -1313,6 +1353,47 @@ textarea:focus {
   font-style: normal;
 }
 
+.footer-nav-link,
+.footer-location,
+.footer-contact-link {
+  display: inline-grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 9px;
+  align-items: center;
+  max-width: 100%;
+  line-height: 1.35;
+}
+
+.footer-location {
+  color: var(--cinza-linha);
+}
+
+.footer-nav-icon,
+.footer-location-icon,
+.footer-contact-icon {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  color: var(--champagne);
+  border: 1px solid rgba(185, 151, 104, 0.28);
+  border-radius: 999px;
+}
+
+.footer-nav-icon svg,
+.footer-location-icon svg,
+.footer-contact-icon svg {
+  width: 13px;
+  height: 13px;
+}
+
+.footer-nav-link:hover .footer-nav-icon,
+.footer-contact-link:hover .footer-contact-icon {
+  color: var(--branco-gelo);
+  background: rgba(185, 151, 104, 0.18);
+  border-color: rgba(185, 151, 104, 0.52);
+}
+
 .floating-whatsapp {
   position: fixed;
   right: 22px;
@@ -1373,51 +1454,6 @@ textarea:focus {
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.cookie-banner {
-  position: fixed;
-  right: 22px;
-  bottom: 22px;
-  left: auto;
-  z-index: 860;
-  display: flex;
-  width: min(calc(100% - 44px), 440px);
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  margin-inline: auto;
-  padding: 12px 14px;
-  color: var(--carvao);
-  background: var(--white);
-  border: 1px solid rgba(199, 199, 199, 0.82);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-strong);
-}
-
-.cookie-banner[hidden] {
-  display: none;
-}
-
-.cookie-banner h2 {
-  margin-bottom: 0;
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.cookie-banner p {
-  margin-bottom: 0;
-  color: var(--grafite);
-  font-size: 0.9rem;
-  line-height: 1.35;
-}
-
-.cookie-banner .cookie-accept {
-  min-height: 42px;
-  padding: 10px 14px;
-  white-space: nowrap;
 }
 
 .project-modal {
@@ -1886,14 +1922,6 @@ textarea:focus {
   .concept::before,
   .cta::before {
     inset: 14px;
-  }
-
-  .cookie-banner {
-    display: grid;
-    right: 14px;
-    bottom: 84px;
-    left: 14px;
-    width: auto;
   }
 
   .floating-whatsapp {

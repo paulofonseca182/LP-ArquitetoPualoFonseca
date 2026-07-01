@@ -1,15 +1,13 @@
  ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
- ⚠ Fast Refresh had to perform a full reload due to a runtime error.
- ⨯ ReferenceError: Reveal is not defined
-    at ProcessSection (components\sections\ProcessSection.jsx:10:10)
-   8 |     <section className="section section-muted process" id="processo" aria-labelledby="processo-title">
-   9 |       <div className="container">
-> 10 |         <Reveal className="section-heading centered">
-     |          ^
-  11 |           <p className="eyebrow">Processo</p>
-  12 |           <h2 id="processo-title">Etapas do projeto</h2>
-  13 |           <p> {
-  digest: '2896124014'
-}
- ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./components/layout/Footer.jsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Programacao\LP-ArquitetoPualoFonseca\components\layout\Footer.jsx
+    1: O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Import trace for requested module:
+./components/layout/Footer.jsx
+./app/page.jsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload

@@ -1,5 +1,13 @@
+import { Briefcase, Images, Info, Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
 import { INSTAGRAM_URL } from "@/data/site";
 import { Brand } from "@/components/ui/Brand";
+
+const footerLinks = [
+  { href: "#sobre", label: "Sobre", Icon: Info },
+  { href: "#projetos", label: "Projetos", Icon: Images },
+  { href: "#servicos", label: "Serviços", Icon: Briefcase },
+  { href: "#contato", label: "Contato", Icon: MessageCircle }
+];
 
 export function Footer() {
   return (
@@ -10,18 +18,35 @@ export function Footer() {
           <p>Projetos inteligentes para transformar espaços em experiências.</p>
         </div>
 
-        <nav aria-label="Navegação do rodapé">
-          <a href="#sobre">Sobre</a>
-          <a href="#projetos">Projetos</a>
-          <a href="#servicos">Serviços</a>
-          <a href="#contato">Contato</a>
+        <nav className="footer-nav" aria-label="Navegação do rodapé">
+          {footerLinks.map(({ href, label, Icon }) => (
+            <a className="footer-nav-link" href={href} key={href}>
+              <span className="footer-nav-icon" aria-hidden="true">
+                <Icon strokeWidth={1.55} />
+              </span>
+              <span>{label}</span>
+            </a>
+          ))}
         </nav>
 
-        <address>
-          <span>Dores do Indaiá e região</span>
-          <a href="mailto:pfonseca.arq@gmail.com">pfonseca.arq@gmail.com</a>
-          <a href={INSTAGRAM_URL} target="_blank" rel="noopener">
-            @arquitetopaulofonseca
+        <address className="footer-contact">
+          <span className="footer-location">
+            <span className="footer-location-icon" aria-hidden="true">
+              <MapPin strokeWidth={1.55} />
+            </span>
+            <span>Dores do Indaiá e região</span>
+          </span>
+          <a className="footer-contact-link" href="mailto:pfonseca.arq@gmail.com">
+            <span className="footer-contact-icon" aria-hidden="true">
+              <Mail strokeWidth={1.55} />
+            </span>
+            <span>pfonseca.arq@gmail.com</span>
+          </a>
+          <a className="footer-contact-link" href={INSTAGRAM_URL} target="_blank" rel="noopener">
+            <span className="footer-contact-icon" aria-hidden="true">
+              <Instagram strokeWidth={1.55} />
+            </span>
+            <span>@arquitetopaulofonseca</span>
           </a>
         </address>
       </div>
