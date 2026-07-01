@@ -1,0 +1,69 @@
+
+> paulo-fonseca-landing@1.0.0 dev C:\Programacao\LP-ArquitetoPualoFonseca
+> next dev "--hostname" "0.0.0.0" "-p" "3001"
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3001
+   - Network:      http://0.0.0.0:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.4s (1424 modules)
+ GET / 200 in 10127ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1817ms (1429 modules)
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 2620ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 2174ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 2220ms
+ GET / 200 in 366ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 63ms
+ GET / 200 in 354ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 56ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 78ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 239ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 239ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 241ms
+ GET / 200 in 574ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 313ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 312ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 313ms
+ GET / 200 in 951ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 97ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 95ms
+ GET / 200 in 370ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 77ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 216ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 217ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 218ms
+ GET / 200 in 436ms
+ ✓ Compiled in 1710ms (1429 modules)
+ GET / 200 in 376ms
+ GET / 200 in 769ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 95ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 170ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 167ms
+ GET / 200 in 276ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 201ms
+ GET / 200 in 645ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 80ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 83ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 114ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 113ms
+ GET / 200 in 401ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 68ms
+ GET / 200 in 198ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 55ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 49ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 59ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 65ms
+ GET / 200 in 341ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 59ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 79ms
+ ✓ Compiled in 1362ms (1429 modules)
+ GET / 200 in 336ms
+ GET / 200 in 444ms
+ GET / 200 in 229ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Luz%20Mineral/Resid%C3%83%C2%AAncia-Luz%20Mineral-01.jpg 404 in 73ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20V%C3%83%C2%A9rtice%20Nativo/Resid%C3%83%C2%AAncia-V%C3%83%C2%A9rtice%20Nativo-01.jpg 404 in 117ms
+ GET /assets/images/portifolio-card/Resid%C3%83%C2%AAncia%20Paz%20das%20Palmeiras/Resid%C3%83%C2%AAncia-Paz-das-Palmeiras-01.jpg 404 in 121ms

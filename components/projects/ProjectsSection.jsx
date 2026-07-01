@@ -1,19 +1,13 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
-import { projectFilters, projects } from "@/data/projects";
+import { useCallback, useState } from "react";
+import { projects } from "@/data/projects";
 import { ProjectCard } from "@/components/projects/ProjectCard";
 import { ProjectLightbox } from "@/components/projects/ProjectLightbox";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function ProjectsSection() {
-  const [activeFilter, setActiveFilter] = useState("todos");
   const [lightbox, setLightbox] = useState(null);
-
-  const filteredProjects = useMemo(() => {
-    if (activeFilter === "todos") return projects;
-    return projects.filter((project) => project.filters.includes(activeFilter));
-  }, [activeFilter]);
 
   const openLightbox = useCallback((projectIndex, imageIndex) => {
     setLightbox({ projectIndex, imageIndex });
@@ -44,26 +38,13 @@ export function ProjectsSection() {
           </p>
         </Reveal>
 
-        <Reveal className="project-filters" aria-label="Filtrar projetos" delay={0.06}>
-          {projectFilters.map((filter) => {
-            const isActive = activeFilter === filter.value;
-            return (
-              <button
-                className={`filter-btn${isActive ? " active" : ""}`}
-                type="button"
-                aria-pressed={isActive}
-                onClick={() => setActiveFilter(filter.value)}
-                key={filter.value}
-              >
-                {filter.label}
-              </button>
-            );
-          })}
-        </Reveal>
+        {/*
+          Project filters temporarily disabled.
+          All project cards remain visible while this block is inactive.
+        */}
 
         <div className="project-grid" aria-live="polite">
-          {filteredProjects.map((project) => {
-            const projectIndex = projects.indexOf(project);
+          {projects.map((project, projectIndex) => {
             return (
               <ProjectCard
                 project={project}
@@ -74,8 +55,6 @@ export function ProjectsSection() {
             );
           })}
         </div>
-
-        {filteredProjects.length === 0 && <p className="project-empty">Nenhum projeto nesta categoria no momento.</p>}
       </div>
 
       <ProjectLightbox

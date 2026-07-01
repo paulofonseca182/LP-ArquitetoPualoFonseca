@@ -668,6 +668,10 @@ h3 {
   margin-inline: auto;
 }
 
+.projects .section-heading + .project-grid {
+  margin-top: clamp(38px, 5vw, 72px);
+}
+
 .project-filters {
   display: flex;
   flex-wrap: wrap;
